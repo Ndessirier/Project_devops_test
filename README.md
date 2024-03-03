@@ -1,1 +1,1 @@
-Repo créer pour le TP DevOps pour la parti compilation
+Repo créer pour le TP DevOps pour la parti test Maven
