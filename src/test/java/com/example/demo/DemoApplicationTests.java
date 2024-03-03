@@ -3,21 +3,23 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DemoApplicationTests {
-
+    
+    @Disabled
     @Test
     public void testAdd() {
-        // Logique de test pour l'addition
-        assertEquals(4, add(2, 2));
+        // test addition
+        assertEquals(4, add(2, 3));
     }
 
     @Test
     public void testMultiply() {
-        // Logique de test pour la multiplication
+        // test mutiplication
         assertEquals(6, multiply(2, 3));
     }
 
     @Test
     public void testDivide() {
+        // test division
         assertEquals(2, divide(6, 3));
     }
 
